@@ -2,10 +2,11 @@
 <div id="menu">
 	<ul>
 		<li class="current_page_item"><%= link_to 'Home', root_path %></li>
-				
-		<li><a href="#" accesskey="2" title="">About Us</a></li>
-		<li><a href="#" accesskey="3" title="">What We Do</a></li>
-		<li><a href="#" accesskey="4" title="">Blog</a></li>
-		<li><a href="#" accesskey="5" title="">Careers</a></li>
+		<li><%= link_to 'About Us', aboutus_path %></li>
+		<li><%= link_to 'What We Do', whatwedo_path %></li>
+		<li><%= link_to 'Blog', '#' %></li>
+		<li><%= link_to 'Careers', careers_path %></li>
+		<!-- <li><%= link_to 'Contact Us', contact_us_path %></li> -->
 	</ul>
 </div>
+

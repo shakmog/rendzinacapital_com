@@ -28,8 +28,16 @@ $(function() {
 	$('article#home_left').readmore();
 
 	// Backstretch
+	switch (document.location.href) {
+		case "http://localhost:3003/":
+			$('#header-featured').backstretch(["/assets/banner2.jpg", 
+				"/assets/banner.jpg"]);
+			break;
+		case "http://localhost:3003/contact-us":
+			$('#header-featured').backstretch("/assets/contact.jpg");
+			break;
+	}
 	
-	$('#header-featured').backstretch(["/assets/banner2.jpg", "/assets/banner.jpg"]);
 
 	// Menu Toggle
 
