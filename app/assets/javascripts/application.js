@@ -12,9 +12,31 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require foundation
 //= require_tree .
+//= require readmore
+//= require jquery.backstretch
+
 $(function() {
-  $(document).foundation();
+
+	// Foundation
+
+	$(document).foundation();
+
+	// Read More
+	
+	$('article#home_left').readmore();
+
+	// Backstretch
+	
+	$('#header-featured').backstretch(["/assets/banner2.jpg", "/assets/banner.jpg"]);
+
+	// Menu Toggle
+
+	$('#menu ul li a').click(function(){
+		$(this).parent().addClass('current_page_item').siblings().removeClass('current_page_item');
+	});
+
 });
+
+
