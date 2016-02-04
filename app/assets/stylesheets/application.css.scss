@@ -25,7 +25,7 @@ body
 	margin: 0px;
 	padding: 0px;
 	/*background: #1B9772;*/
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: Interstate, 'Source Sans Pro', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
 	color: #6c6c6c
@@ -625,7 +625,7 @@ ul.contact li a.icon-rss:before
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 0.80em;
-	color: rgba(255,255,255,0.3);
+	color: #000;
 }
 
 #copyright a
@@ -642,7 +642,7 @@ ul.contact li a.icon-rss:before
 {
 	overflow: hidden;
 	padding: 6em 0em;
-	background: #383838;
+	background: image-url('featured_wallpaper.png');
 	text-align: center;
 }
 
@@ -730,6 +730,32 @@ ul.contact li a.icon-rss:before
 		background-position: center;
 		background-size: cover;
 		margin-top: 0.7em;
+		text-align: right;
+		color: #FFF;
+
+		a {
+			color: #FFF;
+			text-shadow: 2px 2px #000;
+		}
+
+		i {
+			font-size: 3em;
+			margin: 0.3em;
+		}
+
+		#featured_contact {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			font-size: 0.4em;
+			text-shadow: 2px 2px #000;
+
+			a {
+				font-size: 2.7em;
+				margin: 1em;
+				text-shadow: 2px 2px #000;
+			}
+		}
 	}
 
 
@@ -863,6 +889,19 @@ ul.contact li a.icon-rss:before
 /* Footer                                                                        */
 /*********************************************************************************/
 
+footer {
+	.icons {
+		position: relative;
+		margin-bottom: 2em;
+		padding-top: 3em;
+
+		i {
+			font-size: 3em;
+			margin: 1em;
+		}
+	}
+}
+
 
 #footer-wrapper
 {
@@ -968,9 +1007,44 @@ ul.contact li a.icon-rss:before
 	float: right;
 }
 
-#home_left, #home_right {
-	margin-top: 2em;
+#intro, #resources {
+	/*margin-top: 2em;*/
+	text-align: center;
+
 	h3 {
 		margin-bottom: 1em;
 	}
+}
+
+main, footer, #header-wrapper, nav, #menu {
+	background: image-url('wallpaper.png');
+}
+
+hr {
+	border: 1px solid #c4e35a !important;
+}
+
+section {
+	margin-top: 0;
+}
+
+.aboutus, .whatwedo {
+	p {
+		margin-top: 0.8em;
+	}
+
+	h2 {
+		margin-top: 1em;
+		font-size: 2em;
+	}
+
+	h3 {
+		font-size: 1.5em;
+	}
+}
+
+#careers {
+	font-size: 2em;
+	margin-bottom: 1em;
+	margin-top: 1em;
 }

@@ -19,7 +19,28 @@
        <%= yield %>
     </main>
     <footer>
-
+      <ul class="icons row">
+        <div class="large-6 large-centered columns">
+          <div class="row">
+            <li class="large-4 column"><a href="#"><i class="fi-social-twitter"></i></a></li>
+            <li class="large-4 column"><a href="#"><i class="fi-social-facebook"></i></a></li>
+            <li class="large-4 column"><a href="#"><i class="fi-social-linkedin"></i></a></li>
+          </div>
+        </div>
+      </ul>
+      <ul class="menu row">
+        <div class="large-7 large-centered columns">
+          <div class="row">
+            <li class="large-3 column"><a href="/careers">Careers</a></li>
+            <li class="large-3 column"><a href="#">Terms of Use</a></li>
+            <li class="large-3 column"><a href="#">Privacy</a></li>
+            <li class="large-3 column"><a href="#">Contact</a></li>
+          </div>
+        </div>
+      </ul>
+      <div id="copyright" class="container">
+        <p>&copy; Rendzina Capital <%= Date.today.year %> All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
