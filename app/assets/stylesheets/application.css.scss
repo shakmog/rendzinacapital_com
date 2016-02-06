@@ -691,8 +691,8 @@ ul.contact li a.icon-rss:before
 {
 	position: relative;
 	display: inline-block;
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	background: #E24E2A;
 	margin: 0px auto 20px auto;
 	line-height:  100px;
@@ -704,6 +704,14 @@ ul.contact li a.icon-rss:before
 .column1,  .column2,  .column3,  .column4
 {
 	width: 282px;
+
+	img {
+		width: 200px;
+		height: 200px;
+		margin-bottom: 2em;
+	}
+
+
 }
 
 .column1,  .column2
@@ -890,9 +898,10 @@ ul.contact li a.icon-rss:before
 /*********************************************************************************/
 
 footer {
+
 	.icons {
 		position: relative;
-		margin-bottom: 2em;
+		margin-bottom: 2.7em;
 		padding-top: 3em;
 
 		i {
@@ -1016,6 +1025,10 @@ footer {
 	}
 }
 
+#resources {
+	background: image-url('resource.jpg')
+}
+
 main, footer, #header-wrapper, nav, #menu {
 	background: image-url('wallpaper.png');
 }
@@ -1028,7 +1041,7 @@ section {
 	margin-top: 0;
 }
 
-.aboutus, .whatwedo {
+.aboutus, .whatwedo, .careers {
 	p {
 		margin-top: 0.8em;
 	}
@@ -1043,8 +1056,14 @@ section {
 	}
 }
 
-#careers {
+#whatwedo, #careers {
 	font-size: 2em;
 	margin-bottom: 1em;
 	margin-top: 1em;
+}
+
+form {
+	input {
+		width: 50%;
+	}
 }
