@@ -1,9 +1,26 @@
 Rails.application.routes.draw do
+  
+  get 'whatwedo/social'
+
+  get 'whatwedo/consulting'
+
+  get 'whatwedo/technology'
+
   get 'home/index'
+
   get 'aboutus' => "home#aboutus"
+
   get 'whatwedo' => "home#whatwedo"
-  # get 'blog' => "home#blog"
+
   get 'careers' => "home#careers"
+  
+  get 'starter' => "home#starter"
+  
+  get 'agrinvest' => "home#agrinvest"
+  
+  get 'gaae' => "home#gaae"
+  
+  get 'organic' => "home#organic"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

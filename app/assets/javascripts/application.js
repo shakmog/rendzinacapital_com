@@ -53,6 +53,21 @@ $(function() {
 				"/assets/whatwedo.jpg"
 			);
 			break;
+		case "http://localhost:3003/whatwedo/social":
+			$('#header-featured').backstretch(
+				"/assets/whatwedo.jpg"
+			);
+			break;
+		case "http://localhost:3003/whatwedo/consulting":
+			$('#header-featured').backstretch(
+				"/assets/whatwedo.jpg"
+			);
+			break;
+		case "http://localhost:3003/whatwedo/technology":
+			$('#header-featured').backstretch(
+				"/assets/whatwedo.jpg"
+			);
+			break;
 		case "http://localhost:3003/contact-us":
 			$('#header-featured').backstretch(
 				"/assets/contact.jpg"

@@ -10,5 +10,16 @@ class HomeController < ApplicationController
 
   def careers
   end
-  
+ 
+  def starter
+  end
+
+  def agrinvest
+  end
+
+  def gaae
+  end
+
+  def organic
+  end
 end
