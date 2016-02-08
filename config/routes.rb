@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   
+  get 'careers/associate'
+
+  get 'careers/independent'
+
   get 'whatwedo/social'
 
   get 'whatwedo/consulting'
