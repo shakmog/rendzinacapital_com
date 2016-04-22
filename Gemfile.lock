@@ -63,6 +63,9 @@ GEM
     json (1.8.3)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    mail_form (1.5.1)
+      actionmailer (>= 3.2, < 5)
+      activemodel (>= 3.2, < 5)
     mime-types (2.99)
     minitest (5.8.4)
     multi_json (1.11.2)
@@ -137,6 +140,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionmailer (~> 4.1.0)
+  activemodel (~> 4.1.0)
   backstretch-rails
   coffee-rails (~> 4.0.0)
   contact_us
@@ -144,6 +149,7 @@ DEPENDENCIES
   foundation-rails
   jbuilder (~> 2.0)
   jquery-rails
+  mail_form
   paperclip
   pg
   rails (= 4.1.8)

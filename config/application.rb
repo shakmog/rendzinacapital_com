@@ -21,8 +21,8 @@ module RendzinacapitalCom
     # config.i18n.default_locale = :de
 
     # For Foundation 5
-    config.assets.precompile += %w( vendor/modernizr )
-    
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif vendor/modernizr)
+        
     config.serve_static_assets = true
 
   end

@@ -34,6 +34,11 @@ gem 'backstretch-rails'
 
 gem 'paperclip'
 
+gem 'actionmailer', '~> 4.1.0'
+gem 'activemodel', '~> 4.1.0'
+
+gem 'mail_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
