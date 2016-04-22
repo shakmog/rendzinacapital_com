@@ -1,5 +1,9 @@
 class DropAssociate < ActiveRecord::Migration
-  def change
-  	drop_table :associates
+  def up
+    drop_table :associates
+  end
+
+  def down
+    raise ActiveRecord::IrreversibleMigration
   end
 end

@@ -1,5 +1,9 @@
 class DropIndependent < ActiveRecord::Migration
-  def change
-  	drop_table :independent_consultants
+  def up
+    drop_table :independent_consultants
+  end
+
+  def down
+    raise ActiveRecord::IrreversibleMigration
   end
 end
