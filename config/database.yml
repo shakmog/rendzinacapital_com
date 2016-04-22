@@ -14,3 +14,11 @@ staging:
   username: shak
   password: 
   encoding: utf8
+
+test:
+  adapter:  postgresql
+  database: rendzina_test
+  host:   localhost
+  username: shak
+  password: 
+  encoding: utf8

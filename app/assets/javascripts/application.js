@@ -73,6 +73,16 @@ $(function() {
 				"/assets/contact.jpg"
 			);
 			break;
+		case "http://localhost:3003/blog":
+			$('#header-featured').backstretch(
+				"/assets/aboutus.jpg"
+			);
+			break;
+		case "http://localhost:3003/blog/new":
+			$('#header-featured').backstretch(
+				"/assets/aboutus.jpg"
+			);
+			break;
 	}
 	
 

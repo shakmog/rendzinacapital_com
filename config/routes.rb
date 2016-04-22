@@ -1,5 +1,18 @@
 Rails.application.routes.draw do
   
+  resources :consultants
+
+  resources :associates
+
+  get 'comments/create'
+
+  get 'comments/destroy'
+
+  resources :posts, :path => 'blog' do
+    resources :comments
+  end
+
+
   get 'careers/associate'
 
   get 'careers/independent'
