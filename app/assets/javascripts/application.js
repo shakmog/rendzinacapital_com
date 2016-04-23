@@ -29,7 +29,7 @@ $(function() {
 
 	// Backstretch
 	switch (document.location.href) {
-		case "http://localhost:3003/":
+		case "http://www.rendzina.ng/":
 			$('#header-featured').backstretch([
 				"/assets/banner2.jpg", 
 				"/assets/banner1.jpg", 
@@ -38,47 +38,47 @@ $(function() {
 				"/assets/banner4.jpg"
 			]);
 			break;
-		case "http://localhost:3003/aboutus":
+		case "http://www.rendzina.ng/aboutus":
 			$('#header-featured').backstretch(
 				"/assets/aboutus.jpg"
 			);
 			break;
-		case "http://localhost:3003/careers":
+		case "http://www.rendzina.ng/careers":
 			$('#header-featured').backstretch(
 				"/assets/careers.jpg"
 			);
 			break;
-		case "http://localhost:3003/whatwedo":
+		case "http://www.rendzina.ng/whatwedo":
 			$('#header-featured').backstretch(
 				"/assets/whatwedo.jpg"
 			);
 			break;
-		case "http://localhost:3003/whatwedo/social":
+		case "http://www.rendzina.ng/whatwedo/social":
 			$('#header-featured').backstretch(
 				"/assets/whatwedo.jpg"
 			);
 			break;
-		case "http://localhost:3003/whatwedo/consulting":
+		case "http://www.rendzina.ng/whatwedo/consulting":
 			$('#header-featured').backstretch(
 				"/assets/whatwedo.jpg"
 			);
 			break;
-		case "http://localhost:3003/whatwedo/technology":
+		case "http://www.rendzina.ng/whatwedo/technology":
 			$('#header-featured').backstretch(
 				"/assets/whatwedo.jpg"
 			);
 			break;
-		case "http://localhost:3003/contact-us":
+		case "http://www.rendzina.ng/contact-us":
 			$('#header-featured').backstretch(
 				"/assets/contact.jpg"
 			);
 			break;
-		case "http://localhost:3003/blog":
+		case "http://www.rendzina.ng/blog":
 			$('#header-featured').backstretch(
 				"/assets/aboutus.jpg"
 			);
 			break;
-		case "http://localhost:3003/blog/new":
+		case "http://www.rendzina.ng/blog/new":
 			$('#header-featured').backstretch(
 				"/assets/aboutus.jpg"
 			);
